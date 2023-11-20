@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: blue;
+    margin: 25px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.col-4{
+    width: 33.33%;
+    padding: 15px;
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.hidden{
+   display: none;
+}
+body{
+    background-color: blanchedalmond;
+}
+input{
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+button{
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
